@@ -1,0 +1,177 @@
+.main_wrapper
+{
+    width: auto;
+    height: auto;
+    margin: auto;
+}
+
+.header_wrapper
+{
+    width: auto;
+    height: 50px;
+    margin: auto;
+}
+
+#logo{
+    float: left;
+}
+#banner{
+    float: right;
+}
+
+.content_wrapper{
+    width: auto;
+    margin: auto;
+
+}
+
+.menubar{
+    width: auto;
+    height: 50px;
+    color: white;
+    background-color: purple;
+    top: 0;
+    right: 0;
+    left: 0;
+    position: fixed;
+    margin: 0 auto;
+}
+
+#menu{
+    margin-left: 7%;
+    line-height: 20%;
+}
+
+#menu li{
+    list-style: none;
+    display: inline;
+}
+
+#menu a{
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+    margin: 5px;
+    font-size: 18px;
+    font-family: 'COMIC SANS MS','Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+#menu a:hover{
+    color: yellow;
+    font-weight: bolder;
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+
+#form{
+    line-height: 8em;
+    padding-top: 12em;
+    padding-left: 30em;
+ 
+}
+
+.slide{
+	width: auto;
+	height: 25em;
+	background-image: url(../images/banner.jpg);
+}
+#content_area{
+    width:auto;
+    float: right;
+    background-color: #ebe6df;
+
+}
+#sidebar{
+    width: 15.50em;
+    float: left;
+    background-color: purple;
+}
+
+#sidebar_title{
+	padding-top: 4.5em;
+    background-color: white;
+    color: black;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    text-align: center;
+}
+
+#cats{
+    text-align: left;
+}
+
+#cats li{
+    list-style: none;
+    display: block;
+    margin-top: 10px;
+}
+
+#cats a{
+    color: white;
+    padding: 8px;
+    margin: 5px;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 13px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+
+#cats a:hover{
+    color: yellow;
+    font-weight: bolder;
+    text-decoration: none;
+  
+}
+#footer{
+    width: 1000px;
+    height: 100px;
+    float: left;
+    clear: both;
+    background-color:gray;
+
+}
+#products_box{
+    width: 62em;
+    text-align: center;
+    margin-left: auto;
+    margin-bottom: 10px;
+}
+
+#single_product{
+    margin-left:2.1em;
+    padding: 0.8em;
+    float: left;
+    border-radius: 1.0em;
+    background: white;
+    margin-top: 2.1em;
+    box-shadow: 0.3em 0.3em 0.2em purple;
+}
+
+#single_product img{
+    border: 0.7em #ebe6df ;
+}
+
+#shopping_cart{
+    color: yellow;
+}
+h3{
+	font-size: 1.2em !important;
+	text-transform: capitalize;
+}
+#sidebar_title h2{
+	padding-top: 4.5em;
+	background-color: white;
+}
+section img{
+    width: 10em;
+    height: 10em;
+    float: left;
+    padding-top: 0;
+}
+.menubar aside{
+    width: 45%;
+    display: inline-block;
+}
